@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dziękujemy za zapisanie się!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #1d4ed8;
+      --primary-dark: #1e3a8a;
+      --gray: #6b7280;
+      --bg: #f3f4f6;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: #111827;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .success-card {
+      background: white;
+      padding: 2rem;
+      border-radius: 0.75rem;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      text-align: center;
+      max-width: 500px;
+      margin: 1rem;
+    }
+    h1 {
+      color: var(--primary);
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      color: var(--gray);
+      margin-bottom: 1.5rem;
+    }
+    .back-button {
+      display: inline-block;
+      padding: 0.75rem 1.25rem;
+      background: var(--primary);
+      color: white;
+      text-decoration: none;
+      border-radius: 0.375rem;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+    .back-button:hover {
+      background: var(--primary-dark);
+    }
+  </style>
+</head>
+<body>
+  <div class="success-card">
+    <h1>Dziękujemy za zapisanie się!</h1>
+    <p>Twój adres email został pomyślnie zapisany. Wkrótce otrzymasz od nas wiadomość z dalszymi instrukcjami.</p>
+    <a href="landing page rental.html" class="back-button">Wróć do strony głównej</a>
+  </div>
+</body>
+</html> 
